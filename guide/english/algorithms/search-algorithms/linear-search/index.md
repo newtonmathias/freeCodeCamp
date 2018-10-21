@@ -43,17 +43,19 @@ The code for a linear search function in JavaScript is shown below. This functio
 
 ### Example in Javascript
 ```javascript
-function linearSearch(arr, item) {
-  // Go through all the elements of arr to look for item.
-  for (var i = 0; i < arr.length; i++) {
-    if (arr[i] === item) { // Found it!
-      return i;
-    }
-  }
-  
-  // Item not found in the array.
-  return null;
+var array = ['a', 'b', 'c'];
+const foundIndices =[];
+
+function linearSearch (seekElement) {
+  array.forEach((element, index) => {
+      if (element === seekElement) {
+        foundIndices.push(index);
+      }
+    });
+    return foundIndices;
 }
+
+linearSearch('a');
 ```
 
 ### Example in Ruby
