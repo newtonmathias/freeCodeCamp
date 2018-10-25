@@ -2,7 +2,7 @@
 title: Arrow Functions
 ---
 
-Arrow functions are a new ES6 syntax for writing JavaScript function expressions. The shorter syntax saves time, as well as simplifying the function scope.
+Arrow functions are a new ES6 syntax for writing JavaScript function expressions. An arrow function expression has a shorter syntax than a function expression and does not have its own this , arguments, super, or new.target. The shorter syntax saves time, as well as simplifying the function scope.
 
 ## What are arrow functions?
 
